@@ -1,0 +1,123 @@
+/* Set background color for the body */
+body {
+  background-color: #f2f2f2;
+  /* Light gray background color */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* Use a common iOS font */
+  font-size: 16px;
+  /* Default font size */
+  line-height: 1.6;
+  /* Line height for better readability */
+  margin: 0;
+  /* Remove default body margin */
+  padding: 0;
+  /* Remove default body padding */
+}
+
+.main-div {
+  background-color: rgb(219, 25, 25);
+}
+
+.container-fluid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* iOS-style button */
+button {
+  background-color: #007AFF;
+  /* iOS blue color */
+  color: #fff;
+  /* White text color */
+  border: none;
+  /* Remove borders */
+  padding: 10px 20px;
+  /* Padding around text */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* iOS-like font */
+  font-size: 16px;
+  /* Font size */
+  border-radius: 8px;
+  /* Slightly rounded corners */
+  cursor: pointer;
+  /* Change cursor on hover */
+  text-align: center;
+  /* Center text horizontally */
+  text-decoration: none;
+  /* Remove underlines */
+  display: inline-block;
+  /* Prevent extra width */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;
+  /* Slightly darker blue on hover */
+}
+
+/* Contact Me Container */
+.contact-me-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+  /* Light gray background */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* iOS-like font */
+}
+
+/* Title */
+.contact-me-container h1 {
+  color: #007AFF;
+  /* iOS blue color */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Contact Information */
+.contact-info {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* iOS-style Button */
+.ios-button {
+  background-color: #007AFF;
+  /* iOS blue color */
+  color: #fff;
+  /* White text color */
+  border: none;
+  /* Remove borders */
+  padding: 10px 20px;
+  /* Padding around text */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* iOS-like font */
+  font-size: 16px;
+  /* Font size */
+  border-radius: 8px;
+  /* Slightly rounded corners */
+  cursor: pointer;
+  /* Change cursor on hover */
+  text-align: center;
+  /* Center text horizontally */
+  text-decoration: none;
+  /* Remove underlines */
+  display: inline-block;
+  /* Prevent extra width */
+  margin-top: 20px;
+  /* Add margin to space the button from contact info */
+}
+
+/* Hover effect for the button */
+.ios-button:hover {
+  background-color: #0056b3;
+  /* Slightly darker blue on hover */
+}
