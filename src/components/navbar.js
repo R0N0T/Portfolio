@@ -9,6 +9,7 @@ function Navbar() {
                     <button>About Me</button>
                     <button>Project</button>
                     <button>Resume</button>
+                    <button>Skills</button>
                     <button>Contact Me</button>
                 </div>
             </nav>
